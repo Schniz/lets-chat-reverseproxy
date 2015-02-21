@@ -1,22 +1,22 @@
 {
-  "name": "lets-chat-kerberos",
-  "version": "0.2.0",
-  "description": "Kerberos add-on for Let's Chat",
+  "name": "lets-chat-reverseproxy",
+  "version": "0.0.1",
+  "description": "reverse proxy sso header add-on for Let's Chat",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sdelements/lets-chat-kerberos.git"
+    "url": "git://github.com/schniz/lets-chat-reverseproxy.git"
   },
   "author": {
-    "name": "Simon Bartlett",
-    "email": "simon@sdelements.com"
+    "name": "Gal Schlezinger",
+    "email": "gal@spitfire.co.il"
   },
   "bugs": {
-    "url": "https://github.com/sdelements/lets-chat-kerberos/issues"
+    "url": "https://github.com/schniz/lets-chat-reverseproxy/issues"
   },
-  "homepage": "https://github.com/sdelements/lets-chat-kerberos",
+  "homepage": "https://github.com/schniz/lets-chat-reverseproxy",
   "dependencies": {
-    "passport-kerberos": "0.0.1"
+    "passport-reverseproxy": "^0.1.0"
   },
   "peerDependencies": {
     "lets-chat-ldap": "^0.2.0",
