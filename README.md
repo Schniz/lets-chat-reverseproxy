@@ -2,8 +2,16 @@
 
 Add Reverse Proxy authentication to [Let's Chat](http://sdelements.github.io/lets-chat/).
 
-## Node 0.10.x required!
-[See ticket for more information](https://github.com/sdelements/lets-chat-kerberos/issues/1)
+## The "BTW"s
+### XMPP is not supported
+`lets-chat-reverseproxy` uses HTTP headers.
+I'm not fimiliar with XMPP, but I guess it works differently than HTTP.
+
+### LDAP integration isn't tested yet
+you can test it yourself and send a pull request!
+
+### Auto-login isn't implemented yet
+`lets-chat` does not support it yet.
 
 ## Installation
 
